@@ -5,7 +5,7 @@
 cmake_minimum_required(VERSION 3.22)
 
 # Sets a few variables, like PROJECT_NAME
-project(WolfSoundAudioPluginTemplate)
+project(DspTestPlugin)
 
 # Always use the newest C++ standard on green-field projects if possible.
 # Currently, JUCE supports only C++ 20 cross-platform.
@@ -24,9 +24,9 @@ cpmaddpackage(
   NAME
   JUCE
   GIT_TAG
-  8.0.6
+  8.0.11
   VERSION
-  8.0.6
+  8.0.11
   GITHUB_REPOSITORY
   juce-framework/JUCE
   SOURCE_DIR
@@ -40,7 +40,7 @@ cpmaddpackage(
   GITHUB_REPOSITORY
   google/googletest
   VERSION
-  1.16.0
+  1.17.0
   SOURCE_DIR
   ${LIB_DIR}/googletest
   OPTIONS
