@@ -1,5 +1,5 @@
-#include "YourPluginName/PluginProcessor.h"
-#include "YourPluginName/PluginEditor.h"
+#include "DspTestPlugin/PluginProcessor.h"
+#include "DspTestPlugin/PluginEditor.h"
 
 namespace audio_plugin {
 AudioPluginAudioProcessor::AudioPluginAudioProcessor()
